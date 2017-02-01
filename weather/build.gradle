@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+dependencies {
+    compile rootProject.ext.retroJus
+    compile rootProject.ext.jjsonWrapper
+    compile rootProject.ext.jusJjson
+    compile rootProject.ext.jusJjsonWrapper
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+
+task runApp(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = 'io.apptik.Main'
+    systemProperties System.getProperties()
+}

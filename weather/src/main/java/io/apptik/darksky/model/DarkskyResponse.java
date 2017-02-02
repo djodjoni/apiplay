@@ -19,5 +19,5 @@ public interface DarkskyResponse  {
 
     DataBlock daily();
 
-    List<AlertBlock> alerts();
+    List<? extends AlertBlock> alerts();
 }

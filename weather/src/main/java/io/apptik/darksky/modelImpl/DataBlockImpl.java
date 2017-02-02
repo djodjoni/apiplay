@@ -20,7 +20,7 @@ public class DataBlockImpl extends JsonObjectWrapper implements DataBlock {
     }
 
     @Override
-    public List<DataPoint> data() {
+    public List<? extends DataPoint> data() {
         return null;
     }
 }

@@ -72,7 +72,7 @@ public class DarkskyResponseImpl extends JsonObjectWrapper implements DarkskyRes
     }
 
     @Override
-    public List<AlertBlock> alerts() {
+    public List<? extends AlertBlock> alerts() {
         if(alerts.getJson().isEmpty()) {
             alerts.wrap(getJson().optJsonArray("alerts"));
         }

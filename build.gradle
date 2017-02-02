@@ -38,5 +38,7 @@ ext {
     rxJus = 'io.apptik.comm:rx-jus:' + jusVer
     jusJjson = 'io.apptik.comm:jus-jjson:' + jusVer
     jusJjsonWrapper = 'io.apptik.comm:jus-jjson-wrapper:' + jusVer
+    jusJackson = 'io.apptik.comm:jus-jackson:' + jusVer
+
     jusOkhttp = 'io.apptik.comm:jus-okhttp:' + jusVer
 }

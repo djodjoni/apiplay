@@ -8,5 +8,5 @@ public interface DataBlock {
 
     String icon();
 
-    List<DataPoint> data();
+    List<? extends DataPoint> data();
 }

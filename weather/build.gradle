@@ -5,6 +5,7 @@ dependencies {
     compile rootProject.ext.jjsonWrapper
     compile rootProject.ext.jusJjson
     compile rootProject.ext.jusJjsonWrapper
+    compile rootProject.ext.jusJackson
 }
 
 sourceCompatibility = "1.7"
